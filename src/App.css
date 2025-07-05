@@ -1,38 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a; /* Polished black */
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.border-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  padding: 20px 40px;
+  border: 5px solid;
+  border-image: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet) 1;
+  border-radius: 15px;
+}
+
+.middle-text {
+  color: white;
+  font-size: 20px;
+  margin: 20px 300px;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+
+
+.linkedin-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0a66c2;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #0a66c2;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.linkedin-link:hover {
+  background: #0a66c2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-para {
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
 }
