@@ -43,7 +43,7 @@ This chatbot project represents my first steps into the world of React and front
 
 ## 🔗 **Connect with Me**
 
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-id) — Let’s connect!
+- [LinkedIn](https://www.linkedin.com/in/prathamesh-warak) — Let’s connect!
 
 ---
 
