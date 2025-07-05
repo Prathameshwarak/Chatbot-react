@@ -4,7 +4,7 @@
 This is my first React project — a simple and elegant FAQ chatbot built completely from scratch.  
 The chatbot answers common questions and gives users an option to resolve their query or ask another question.
 
-[Check out the live project here]([chatbot-react-prathamesh-waraks-projects.vercel.app](https://chatbot-react-5aokq0q5g-prathamesh-waraks-projects.vercel.app/))
+[Check out the live project here](https://chatbot-react-5aokq0q5g-prathamesh-waraks-projects.vercel.app)
 
 ---
 
